@@ -1,0 +1,226 @@
+.cabeça {
+    position:absolute;
+    background: black;
+    width: 50px;
+    height: 420px;
+    border-radius: 60%;
+    margin-top:260px;
+    margin-left: 400px;
+    visibility: hidden;
+}
+
+.cabeça2 {
+    position: absolute;
+    height: 180px;
+    width: 240px;
+    border-radius: 150px 150px 150px 150px;
+    background-color: #f5ea1b;
+    margin-top: 160px;
+    margin-left: 400px;
+    z-index: 1;
+}
+
+
+.boca {
+    position: absolute;
+    height: 3px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -8px;
+    margin-top: 2px;
+    transform: rotate(140deg);
+}
+
+.boca2{
+    position: absolute;
+    height: 3px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 4px;
+    margin-left: -3px;
+    transform: rotate(75deg);
+}
+
+.baixonariz{
+    position: absolute;
+    height: 3px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    margin-left:1px;
+    margin-top: 12px;
+    transform: rotate(-80deg);
+ 
+}
+
+.nariz{
+    position: absolute;
+    height: 10px;
+    width: 14px;
+    background-color: rgb(100, 18, 89);
+    border-radius: 50%;
+    margin-left: -4px;
+    margin-top: 125px;
+    transform: rotate(15deg);
+}
+
+.orelhas,.orelhas1{
+    position: absolute;
+    height: 121px;
+    width: 152px;
+    background:#f5ea1b;
+}
+
+.orelhas{
+    border-radius: 500px 50px 500px 50px;
+    border-bottom: 9px solid #e4c306;
+    transform: rotate(121deg);
+    margin-top: 150px;
+    margin-left: 380px;
+}
+
+.orelhas1{
+    border-radius: 50px 500px 50px 500px;
+    background: #e4c306;
+    transform: rotate(43deg);
+    margin-top: 145px;
+    margin-left: 495px;
+}
+
+.orelhas1::before{
+    content:"";
+    position: absolute;
+    width: 112px;
+    height: 90px;
+    border-radius: 50px 500px 50px 500px;
+    background: #f5ea1b;
+    transform: rotate(-9deg);
+    margin: -9px
+ 9px;}
+
+
+.sombrancelha1{
+    
+    height: 15px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: -70px;
+    transform: rotate(-150deg);
+}
+
+.sombrancelha2{
+    position: absolute;
+    height: 15px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-left:70px;
+    margin-top:-30px;
+    transform: rotate(130deg);
+}
+
+.pontaR {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(206, 155, 17);
+    border-radius: 50%;
+    margin-top: 410px;
+    margin-left: 310px;
+    animation: rabo-doido 1.5s linear infinite;
+
+
+}
+ .rabo{
+    position: absolute;
+    border-radius: 100%;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(243, 172, 41);
+    margin-left: 10px;
+    animation: rabo2 2.5s alternate-reverse infinite;
+    margin-top: 410px;
+    margin-left: 320px;
+}
+ 
+.pernaT{
+    position: absolute;
+    height: 150px;
+    width:100px;
+    background-color: #e4b724;
+    border-radius: 50%;
+    margin-top: 320px;
+    margin-left:420px;
+}
+
+.pernaD1{
+    position: absolute;
+    height: 70px;
+    width:35px;
+    background-color: #e9de0e;
+    border-radius: 50%;
+    margin-top:420px;
+    margin-left:530px;
+    transform: rotate(90deg);
+
+
+
+}
+.pataD1{
+    position: absolute;
+    border-radius: 100%;
+    width: 160px;
+    height: 60px;
+    background-color: #e7dd10;
+    margin-top:360px;
+    margin-left: 490px;
+    transform: rotate(90deg);
+}
+
+.peito{
+    position: absolute;
+    height: 170px;
+    width: 60px;
+    background-color: rgb(156, 145, 109);
+    border-radius: 50%;
+    margin-top:280px;
+    margin-left:500px;
+}
+
+.pernaD2{
+    position: absolute;;
+    height:160px;
+    width:60px;
+    background-color: #e9de0e;
+    border-radius: 50%;
+    margin-top:310px;
+    margin-left:458px;
+    
+}
+.pataD12{
+    position:absolute;
+    border-radius: 100%;
+    width: 70px;
+    height: 35px;
+    background-color: #e9de0d;
+    margin-top:438px;
+    margin-left: 475px;
+}
+
+@keyframes rabo-doido {
+	0% {
+		transform: rotate(0deg) translateX(2px);
+	}
+	100% {
+		transform: rotate(360deg) translateX(2px);
+	}
+}
+@keyframes rabo2 {
+    0% { transform: translateY(-8px); 
+    }
+    100% { transform: translateY(13px);
+    }
+
+}

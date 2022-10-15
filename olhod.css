@@ -1,0 +1,68 @@
+
+
+
+.circulo1 {
+    position: absolute;
+    background: linear-gradient(rgb(247, 247, 247) 60%,rgb(184, 250, 184)) ;
+    border-radius: 50%;
+    width: 90px;
+    height: 120px;
+    margin-top: -55px;
+    margin-left: 98px;
+    z-index: 1;
+    transform: rotate(-8deg)
+}
+
+.circulo2 {
+    background: rgba(34, 1, 41, 0.911);
+    border-radius: 50%;
+    width: 135px;
+    height: 170px;
+    margin-top :-185px;
+    margin-left: 500px;
+}
+
+.circulo3 {
+    position: absolute;
+    background-image: radial-gradient(circle, #b85cb8, #a549a5, #933592, #802080, #6e036e);
+    border-radius: 50%;
+    width: 85px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: 1px;    
+}
+
+.circulo4 {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    width: 80px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 3px;
+} 
+
+
+
+.pupila1 {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-top: 12px;
+    margin-left: 20px;
+    animation: olho 2.5s alternate-reverse infinite;
+}
+
+.pupila2 {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+

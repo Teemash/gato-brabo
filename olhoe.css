@@ -1,0 +1,59 @@
+.circulo5 {
+    position: absolute;
+    background: linear-gradient(rgb(247, 247, 247) 60%,rgb(184, 250, 184)) ;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.circulo6 {
+    position:absolute;
+    background: rgba(0, 0, 0, 0.911);
+    border-radius: 50%;
+    width: 87px;
+    height: 87px;
+    margin-top :7px;
+    margin-left: 7px;
+}
+
+
+.circulo7 {
+    position: absolute;
+    background-image: radial-gradient(circle, #b85cb8, #a549a5, #933592, #802080, #6e036e);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px; 
+    margin-left: 10px;   
+}
+
+.circulo8 {
+    background: black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: -140px;
+    margin-left: 330px;
+}
+
+.pupila3 {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px
+}
+
+.pupila4 {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    margin-top: 20px;
+}
